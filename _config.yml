@@ -1,0 +1,42 @@
+# Site settings
+title: "CCR's Blog"
+email: yojungccr@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+
+author: Chungrae Cho
+twitter:
+  username: yojungccr
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+# Social account
+twitter: yojungccr
+github: dejaloser
+
+# avatar and Favicon
+avatar: https://dejaloser.github.io/resource/image/site-avatar.png
+favicon: https://dejaloser.github.io/resource/icon/site-favicon.ico
+
+# disqus config
+disqus:
+  shortname: dejaloser
+
+# google analytics config
+ga:
+  id: UA-83603496-1
+  url: dejaloser.github.io
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
