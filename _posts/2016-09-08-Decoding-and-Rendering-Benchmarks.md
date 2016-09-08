@@ -6,7 +6,7 @@ tags: benchmarks
 keywords: decoding
 ---
 
-출처:http://halogenica.net/sharing-resources-between-directx-and-opengl
+출처:http://www.anandtech.com/show/7007/intels-haswell-an-htpc-perspective/5
 
 Decoding and Rendering Benchmarks
 Our decoding and rendering benchmarks consists of standardized test clips (varying codecs, resolutions and frame rates) being played back through MPC-HC. GPU usage is tracked through GPU-Z logs and power consumption at the wall is also reported. The former provides hints on whether frame drops could occur, while the latter is an indicator of the efficiency of the platform for the most common HTPC task - video playback.
