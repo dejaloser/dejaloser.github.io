@@ -6,9 +6,9 @@ tags: [ opengl, directx ]
 keywords: opengl, directx
 ---
 
-출처:halogenica.net/sharing-resources-between-directx-and-opengl
+출처:http://halogenica.net/sharing-resources-between-directx-and-opengl
 
-![image](http://halogenica.net/wp-content/uploads/2014/03/Shared_Resources1.png)
+![image](https://dejaloser.github.io/resource/image/Shared_Resources1.png)
 
 I’ve recently had a need to simultaneously render using both DirectX and OpenGL. There are a number of reasons why this is useful, particularly in tools where you may wish to compare multiple rendering engines simultaneously. With this technique it is also possible to efficiently perform some rendering operations on one API to a render target, and switch to the other API to continue rendering to that render target. It can also be used to perform all rendering in a specific API, while presenting that final render target using another API. Providing direct access to textures and render targets in graphics memory regardless of API has the potential of efficiently pipelining surfaces through multiple discrete renderers.
 
